@@ -1,0 +1,35 @@
+{
+  "profile": {
+    "name": "Ashish Kumar",
+    "title": "Java Full Stack Developer | SDE | Associate Software Engineer (ASE)",
+    "subTitle": "Building high-performance Java Spring Boot services, modern React web applications, and AI-powered developer tools.",
+    "location": "Bangalore, India",
+    "availability": "Open to Full-Time SDE, Java Developer & Associate Software Engineer (ASE) roles",
+    "email": "choubeyashish22@gmail.com",
+    "github": "https://github.com/Ashish-kumar-code",
+    "linkedin": "https://www.linkedin.com/in/ashish-kumar-0552a32ab/",
+    "resumeDev": "https://drive.google.com/file/d/1jTnfP212iutrsjGmS5MzlPt8KalVZAsl/view?usp=drive_link"
+  },
+  "hireabilityCards": [
+    {
+      "title": "Java Backend & Microservices",
+      "skills": ["Java", "Spring Boot", "Hibernate / JPA", "REST APIs", "MySQL"],
+      "description": "Designing scalable backend architectures, clean RESTful microservices, connection pooling, and secure authentication pipelines."
+    },
+    {
+      "title": "Modern Full Stack Web",
+      "skills": ["React 18", "Tailwind CSS", "JavaScript", "Vite", "Flask", "JWT Auth"],
+      "description": "Crafting modular, responsive web applications with clean component hierarchies, reactive state management, and seamless API integrations."
+    },
+    {
+      "title": "Core CS & SDE Fundamentals",
+      "skills": ["Data Structures & Algorithms", "OOP", "DBMS", "Operating Systems", "Computer Networks"],
+      "description": "Strong theoretical foundation in algorithm optimization, complexity analysis, database normalization, and object-oriented system design."
+    },
+    {
+      "title": "AI Tools & Productivity",
+      "skills": ["Prompt Engineering", "Streamlit", "Claude", "Cursor", "Vercel", "ChatGPT"],
+      "description": "Leveraging state-of-the-art AI tooling (Cursor, Claude, Streamlit, Prompt Engineering) and modern deployment platforms to supercharge software engineering workflows."
+    }
+  ]
+}

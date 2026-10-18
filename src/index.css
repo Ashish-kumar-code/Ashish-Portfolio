@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+/* ─── Pista White (Light) Design System ─── */
+:root {
+  --background: #F5F7F0;
+  --foreground: #1A1D23;
+  --muted: #6B7280;
+  --accent: #4F8CFF;
+  --accent-light: #4F8CFF1A;
+  --border: #DDE4D5;
+  --card: rgba(255, 255, 255, 0.84);
+  --card-hover: rgba(240, 243, 234, 0.94);
+  --section-alt: rgba(238, 241, 232, 0.78);
+  --ring: #4F8CFF33;
+  --radius: 0.75rem;
+  --success: #10B981;
+  --danger: #EF4444;
+  --dock-bg: rgba(255, 255, 255, 0.85);
+  --dock-border: #DDE4D5;
+  --dock-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+
+/* ─── Sleek Dark Design System with Custom Background ─── */
+.dark {
+  --background: #0B0B0C;
+  --foreground: #FAFAFA;
+  --muted: #A1A1AA;
+  --accent: #4F8CFF;
+  --accent-light: rgba(79, 140, 255, 0.15);
+  --border: #22252A;
+  --card: rgba(18, 19, 22, 0.82);
+  --card-hover: rgba(26, 28, 34, 0.92);
+  --section-alt: rgba(22, 24, 28, 0.75);
+  --ring: rgba(79, 140, 255, 0.25);
+  --success: #10B981;
+  --danger: #EF4444;
+  --dock-bg: rgba(18, 19, 22, 0.85);
+  --dock-border: #2A2D35;
+  --dock-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+/* ─── Base Reset ─── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  background-image: 
+    linear-gradient(to bottom, rgba(245, 247, 240, 0.72) 0%, rgba(245, 247, 240, 0.88) 100%),
+    url('/light-bg.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--foreground);
+  font-family: 'Inter', 'Satoshi', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  min-height: 100vh;
+}
+
+.dark body {
+  background-color: #080809;
+  background-image: 
+    linear-gradient(to bottom, rgba(8, 8, 9, 0.65) 0%, rgba(8, 8, 9, 0.85) 100%),
+    url('/dark-bg.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+::selection {
+  background-color: var(--accent);
+  color: #FFFFFF;
+}
+
+/* ─── Typography ─── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Satoshi', 'Inter', system-ui, sans-serif;
+  letter-spacing: -0.025em;
+  color: var(--foreground);
+}
+
+code, pre, .font-mono {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+}
+
+/* ─── Custom Utilities ─── */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}

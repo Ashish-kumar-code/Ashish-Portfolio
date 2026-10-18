@@ -1,0 +1,52 @@
+{
+  "skillsGrouped": [
+    {
+      "category": "Programming Languages",
+      "skills": ["Java", "Python", "JavaScript", "TypeScript", "SQL", "HTML5 & CSS3"]
+    },
+    {
+      "category": "Java Backend & Frameworks",
+      "skills": ["Spring Boot", "Spring Security", "Hibernate / JPA", "Microservices Architecture", "REST APIs", "Flask", "JWT Authentication"]
+    },
+    {
+      "category": "Frontend Development",
+      "skills": ["React.js", "Tailwind CSS", "Vite", "Responsive Design"]
+    },
+    {
+      "category": "Databases & Storage",
+      "skills": ["MySQL", "PostgreSQL", "SQLite", "Database Schema Design", "Query Optimization"]
+    },
+    {
+      "category": "Core CS & SDE Fundamentals",
+      "skills": ["Data Structures & Algorithms", "Object-Oriented Programming (OOP)", "DBMS", "Operating Systems", "Computer Networks"]
+    },
+    {
+      "category": "AI Tools & Productivity",
+      "skills": ["Prompt Engineering", "Streamlit", "Claude", "Cursor", "Vercel", "ChatGPT"]
+    },
+    {
+      "category": "Developer Tools",
+      "skills": ["Git & GitHub", "VS Code", "IntelliJ IDEA", "Eclipse", "Jupyter Notebook", "Postman"]
+    }
+  ],
+  "learningRoadmap": [
+    {
+      "topic": "Java Spring Boot Microservices",
+      "details": "Configuring Eureka discovery registry, Spring Cloud API gateway, Spring Security OAuth2, and scalable microservices.",
+      "progress": 85,
+      "status": "In Progress"
+    },
+    {
+      "topic": "System Design & Distributed Caching",
+      "details": "Low-level object-oriented design patterns (LLD), Redis caching layers, connection pooling, and message queuing.",
+      "progress": 60,
+      "status": "In Progress"
+    },
+    {
+      "topic": "AI-Assisted Development & Prompt Engineering",
+      "details": "Prompt engineering strategies, leveraging modern AI developer tools (Cursor, Claude) for high development velocity.",
+      "progress": 75,
+      "status": "In Progress"
+    }
+  ]
+}

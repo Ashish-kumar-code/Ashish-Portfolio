@@ -1,0 +1,80 @@
+{
+  "aboutMe": {
+    "paragraphs": [
+      "I am a final-year Computer Science Engineering student based in Bengaluru, specializing in Java Full Stack development, enterprise backend engineering, and modern web applications. My core strength lies in translating complex business logic into scalable, maintainable software with a strong foundation in Object-Oriented Programming (OOP), Data Structures & Algorithms, and relational database architecture.",
+      "On the backend, I engineer secure, high-throughput RESTful services using Java, Spring Boot, Spring Security, and MySQL/SQLite—implementing clean API contracts, JWT authentication, and query optimization. On the frontend, I build fluid, mobile-first user interfaces using React, Tailwind CSS, and Vite, ensuring cross-browser compatibility and rapid page load speeds.",
+      "Through my virtual internship at Infosys Springboard, I designed an automated Python AST static analysis and LLM extraction pipeline that cut manual documentation overhead by 70%. Earlier at Innobyte Services, I restructured commercial client interfaces to boost UI/UX performance metrics by 80%. I am driven to deliver production-ready software as a Software Development Engineer (SDE) or Associate Software Engineer (ASE)."
+    ],
+    "recruiterPillars": [
+      {
+        "label": "Target Roles",
+        "value": "SDE-1 • Java Full Stack • ASE"
+      },
+      {
+        "label": "Core Stack",
+        "value": "Java, Spring Boot, React, MySQL, REST APIs"
+      },
+      {
+        "label": "Location & Status",
+        "value": "Bengaluru, India • Immediate / 2026 Grad"
+      },
+      {
+        "label": "Proven Impact",
+        "value": "70% Effort Automation • 80% UI Performance Gain"
+      }
+    ]
+  },
+  "timeline": [
+    { "year": "2022", "title": "Started B.Tech CSE", "desc": "Began Computer Science & Engineering degree, building deep foundations in algorithms, data structures, and computer science fundamentals." },
+    { "year": "2025", "title": "Web Developer Internship", "desc": "Interned at Innobyte Services. Built and overhauled a responsive commercial web application with performance optimizations." },
+    { "year": "2025-26", "title": "AI Intern at Infosys Springboard", "desc": "Engineered an AST-parsed Python docstring generator integrated with rate-limited LLM pipelines and automated documentation generation." },
+    { "year": "Built", "title": "Pneumonia Detection System", "desc": "Trained a Convolutional Neural Network classifying 5,000+ medical X-ray images with ~90% accuracy." },
+    { "year": "Built", "title": "Personal Finance Platform", "desc": "Engineered an SQLite-driven transaction management platform with normalized schemas, budgeting modules, and automated reporting." },
+    { "year": "Currently", "title": "Java Full Stack & SDE Specialization", "desc": "Advancing expertise in Java Spring Boot microservices, system design patterns, distributed architecture, and containerized deployments." }
+  ],
+  "experience": [
+    {
+      "org": "Infosys Springboard",
+      "role": "Artificial Intelligence Intern",
+      "date": "Dec 2025 – Mar 2026",
+      "github": "https://github.com/Ashish-kumar-code/docstring-generator",
+      "work": "https://docstring-generator.streamlit.app/",
+      "bullets": [
+        "Applied Python-based static analysis and pattern extraction to build an automated documentation pipeline, processing 100+ source files and reducing manual analysis effort by 70%.",
+        "Integrated LLM APIs for structured data extraction and multi-format output generation, applying rule-based classification logic to handle nested and edge-case data structures.",
+        "Completed structured training in machine learning fundamentals, statistical modeling, and data-driven decision-making as part of applied AI workflows."
+      ]
+    },
+    {
+      "org": "Innobyte Services",
+      "role": "Web Developer Intern",
+      "date": "Jun 2025 – Jul 2025",
+      "github": "https://github.com/Ashish-kumar-code/innobytes_project",
+      "work": "https://ashish-kumar-code.github.io/innobytes_project/",
+      "bullets": [
+        "Analyzed user-experience and performance data across device types to redesign a commercial website, improving UI/UX performance metrics by 80%.",
+        "Interpreted cross-browser compatibility data to optimize interactive components, reducing page-load friction and improving overall user experience."
+      ]
+    }
+  ],
+  "education": {
+    "degree": "B.Tech in Computer Science and Engineering",
+    "school": "Guru Gobind Singh Educational Society's Technical Campus, Bokaro",
+    "meta": "Sep 2022 – Jun 2026 · CGPA: 7.5/10",
+    "schoolingDegree": "Intermediate – Science (PCM)",
+    "schoolingSchool": "Shakti Shanti Academy (CBSE)",
+    "schoolingMeta": "Passed July 2021 · Score: 92%"
+  },
+  "testimonials": [
+    {
+      "quote": "Ashish demonstrated exceptional problem-solving skills in integrating LLMs with AST parsing. His work on the docstring tool is highly innovative.",
+      "author": "Mentorship Lead",
+      "org": "Infosys Springboard"
+    },
+    {
+      "quote": "A self-motivated developer. Ashish redesigned our client interface ahead of schedule, showing great attention to responsive styling and performance details.",
+      "author": "Technical Supervisor",
+      "org": "Innobyte Services"
+    }
+  ]
+}

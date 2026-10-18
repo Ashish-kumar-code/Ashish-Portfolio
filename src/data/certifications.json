@@ -1,0 +1,34 @@
+{
+  "certifications": [
+    {
+      "title": "Neural Network and Deep Learning",
+      "issuer": "DeepLearning.AI (Coursera)",
+      "desc": "Mastered vectorization, deep neural network initialization, hyperparameter tuning, and backpropagation optimization algorithms.",
+      "link": "https://coursera.org/share/5398a3ed97dfc6866617ac13fceebf78"
+    },
+    {
+      "title": "Prompt Engineering with Generative AI",
+      "issuer": "Infosys Springboard",
+      "desc": "Mastered prompt template engineering, chain-of-thought instructions, and API workflow patterns for LLM integrations.",
+      "link": "https://drive.google.com/file/d/17UJFaEuDmfSyN8em32yjflE38d-XgEam/view?usp=drive_link"
+    },
+    {
+      "title": "HackQuinox 2025 Hackathon",
+      "issuer": "FCRIT, Navi Mumbai",
+      "desc": "Developed high-fidelity software prototypes for smart transportation and road safety under 24-hour hackathon pressure.",
+      "link": "https://www.linkedin.com/posts/ashish-kumar-0552a32ab_hackquinox2025-roadsafety-smarttransport-activity-7299844251465519105-eMUB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqdhoEB5P8Iyyr0Oka53D7RlmOorMziiTE"
+    },
+    {
+      "title": "Parakram '24 ",
+      "issuer": "IIT (ISM) Dhanbad",
+      "desc": "participated in competitive athletic events at Parakram '24, the annual inter-college sports festival hosted by IIT (ISM) Dhanbad, demonstrating teamwork, resilience, and sportsmanship on a regional stage.",
+      "link": "https://drive.google.com/file/d/1KEdrt9KjGuHgsDRbDQiGhwAz1sMM-1KU/view?usp=drive_link"
+    },
+    {
+      "title": "Cryptography & Network Security",
+      "issuer": "Department of CSE, IIT (ISM) Dhanbad",
+      "desc": "Completed an intensive bootcamp on modern cryptographic techniques, network security protocols, and security frameworks under the aegis of the Ministry of Electronics and Information Technology (MeitY).",
+      "link": "https://drive.google.com/file/d/1WOuPMgNgcTaYjlFjXHRQg_RPB3v9dk-s/view?usp=drive_link"
+    }
+  ]
+}
